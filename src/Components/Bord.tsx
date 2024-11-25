@@ -1,11 +1,8 @@
-import CardModel from "../Models/CardModel"
 import Card from "./Card"
 import { cardList } from "../Data/listCards"
 import { useEffect, useState } from "react"
 
-interface Props {
-    listCard: CardModel[]
-}
+
 
 export default function Bord() {
 

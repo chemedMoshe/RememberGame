@@ -1,6 +1,5 @@
 import { useState } from "react"
 import CardModel from "../Models/CardModel"
-import { cardList } from "../Data/listCards"
 interface Props {
   card: CardModel
   checkUserSelected: () => void
